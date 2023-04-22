@@ -71,6 +71,11 @@ body {
 /* REUSABLE UTILITY CLASSES & COMPONENTS */
 /****************************************/
 
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
 .mr-sm {
   margin-right: 1.6rem !important;
 }
