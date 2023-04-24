@@ -105,6 +105,9 @@ strong {
 .mb-md {
   margin-bottom: 4.8rem !important;
 }
+.mb-lg {
+  margin-bottom: 9.6rem;
+}
 .centered-text {
   text-align: center;
 }
