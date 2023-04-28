@@ -60,6 +60,7 @@ Greys: #555, #333
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
   /* 10px / 16px --> 62.5% */
   /* 62.5% of user's browser font-size setting */
 }
