@@ -54,6 +54,10 @@ Greys: #555, #333
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.507);
+}
 html {
   font-size: 62.5%;
   /* 10px / 16px --> 62.5% */
@@ -149,6 +153,7 @@ strong {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
@@ -159,8 +164,11 @@ strong {
   cursor: pointer;
   font-weight: 600;
   transition: all 0.4s ease-in;
+  border: none;
+  font-family: inherit;
   /* border: 2px solid transparent; */
 }
+
 .btn-primary:link,
 .btn-primary:visited {
   background-color: var(--primary-clr);
@@ -183,6 +191,16 @@ strong {
   box-shadow: inset 0 0 0 3px var(--primary-clr);
 }
 
+.btn-form {
+  background-color: #45260a;
+  color: var(--tint-1);
+  align-self: end;
+  padding: 1.2rem;
+}
+.btn-form:hover {
+  background-color: var(--tint-1);
+  color: #555;
+}
 .link:link,
 .link:visited {
   display: inline-block;
