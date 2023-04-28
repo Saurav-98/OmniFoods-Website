@@ -1,0 +1,93 @@
+/****************************************/
+/* Below 1360px ( Small Desktops/Laptops ) */
+/****************************************/
+
+@media screen and (max-width: 85em) {
+  .hero {
+    max-width: 120rem;
+    /* padding-inline: 3.2rem; */
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/****************************************/
+/* Below 1200px ( Landscape Tablets ) */
+/****************************************/
+
+@media screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .grid {
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .hero {
+    gap: 4.8rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/****************************************/
+/* Below 944px ( Portrait Tablets ) */
+/****************************************/
+
+@media screen and (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .hero {
+    padding: 0 8rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4.8rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2em;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 6.4rem;
+  }
+
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem;
+  }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
