@@ -63,6 +63,7 @@ html {
   scroll-behavior: smooth;
   /* 10px / 16px --> 62.5% */
   /* 62.5% of user's browser font-size setting */
+  overflow-x: hidden;
 }
 body {
   /* font-family: sans-serif;  */
