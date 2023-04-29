@@ -510,6 +510,7 @@
     ),
     url(../assets/img/eating.jpg);
   background-size: cover;
+  /* background-position: center top; */
 }
 
 .cta-form {
